@@ -1,12 +1,13 @@
-import { Code2, Palette, Globe, Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Code2, Palette, Globe, Github, Linkedin, Twitter, Mail, Paintbrush } from 'lucide-react';
 
 export const personalInfo = {
-  name: "Alex Chen",
+  name: "Harmeet Singh",
   title: "Creative Developer",
   tagline: "I build things that matter",
+  subtitle: "Young developer from Ludhiana, India 🇮🇳",
   about: "Passionate about crafting beautiful, functional digital experiences. I blend design thinking with technical expertise to create products that users love.",
-  email: "alex.chen@example.com",
-  location: "San Francisco, CA"
+  email: "harmeet.singh@example.com",
+  location: "Ludhiana, India"
 };
 
 export const socialLinks = [
@@ -15,28 +16,28 @@ export const socialLinks = [
     name: "GitHub",
     icon: Github,
     url: "https://github.com",
-    handle: "@alexchen"
+    handle: "@harmeetsingh"
   },
   {
     id: 2,
     name: "LinkedIn",
     icon: Linkedin,
     url: "https://linkedin.com",
-    handle: "/in/alexchen"
+    handle: "/in/harmeetsingh"
   },
   {
     id: 3,
     name: "Twitter",
     icon: Twitter,
     url: "https://twitter.com",
-    handle: "@alexchen"
+    handle: "@harmeetsingh"
   },
   {
     id: 4,
     name: "Email",
     icon: Mail,
-    url: "mailto:alex.chen@example.com",
-    handle: "alex.chen@example.com"
+    url: "mailto:harmeet.singh@example.com",
+    handle: "harmeet.singh@example.com"
   }
 ];
 
@@ -61,6 +62,13 @@ export const skills = [
     icon: Globe,
     description: "Full-stack development with modern frameworks",
     level: 95
+  },
+  {
+    id: 4,
+    name: "Drawing & Digital Art",
+    icon: Paintbrush,
+    description: "Creating stunning visual designs and illustrations",
+    level: 88
   }
 ];
 

@@ -70,8 +70,11 @@ const Home = () => {
               <div className="text-3xl md:text-5xl font-bold mb-8">
                 <span className="gradient-text animated-text">{personalInfo.tagline}</span>
               </div>
-              <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-2xl">
+              <p className="text-xl md:text-2xl text-gray-400 mb-4">
                 {personalInfo.title}
+              </p>
+              <p className="text-lg md:text-xl text-gray-300 mb-12">
+                {personalInfo.subtitle}
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button
@@ -117,7 +120,7 @@ const Home = () => {
       <section id="skills" className="section-padding">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="section-title">Skills & Expertise</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {skills.map((skill, index) => {
               const Icon = skill.icon;
               return (
@@ -128,8 +131,8 @@ const Home = () => {
                 >
                   <Card className="glass-card h-full hover-lift">
                     <CardHeader>
-                      <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500/20 to-blue-500/20 flex items-center justify-center mb-4">
-                        <Icon className="h-8 w-8 text-purple-400" />
+                      <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500/20 to-green-500/20 flex items-center justify-center mb-4">
+                        <Icon className="h-8 w-8 text-emerald-400" />
                       </div>
                       <CardTitle className="text-2xl">{skill.name}</CardTitle>
                       <CardDescription className="text-gray-400">
@@ -139,7 +142,7 @@ const Home = () => {
                     <CardContent>
                       <div className="w-full bg-gray-800 rounded-full h-2 overflow-hidden">
                         <div
-                          className="skill-bar h-full bg-gradient-to-r from-purple-500 to-blue-500"
+                          className="skill-bar h-full bg-gradient-to-r from-blue-500 to-green-500"
                           style={{ width: `${skill.level}%` }}
                         ></div>
                       </div>
@@ -232,8 +235,8 @@ const Home = () => {
                     style={{ animationDelay: `${index * 0.1}s` }}
                   >
                     <div className="glass-card hover-lift text-center p-6">
-                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500/20 to-blue-500/20 flex items-center justify-center mx-auto mb-3">
-                        <Icon className="h-6 w-6 text-purple-400" />
+                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500/20 to-green-500/20 flex items-center justify-center mx-auto mb-3">
+                        <Icon className="h-6 w-6 text-emerald-400" />
                       </div>
                       <p className="font-semibold text-sm">{social.name}</p>
                     </div>
