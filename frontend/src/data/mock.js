@@ -5,7 +5,7 @@ export const personalInfo = {
   title: "Creative Developer",
   tagline: "I build things that matter",
   subtitle: "Young developer from Ludhiana, India 🇮🇳",
-  about: "Passionate about crafting beautiful, functional digital experiences. I blend design thinking with technical expertise to create products that users love.",
+  about: "I'm a young developer and digital artist from Ludhiana, Punjab. I build beautiful things for the web.",
   email: "harmeet.singh@example.com",
   location: "Ludhiana, India"
 };
@@ -77,7 +77,7 @@ export const projects = [
     id: 1,
     title: "EcoTrack",
     description: "A sustainability tracking app that helps users monitor their carbon footprint with beautiful data visualizations.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1763718528755-4bca23f82ac3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwyfHx3ZWIlMjBhcHAlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzc1NTYzNzk1fDA&ixlib=rb-4.1.0&q=85",
     tags: ["React", "Python", "Data Viz"],
     demoUrl: "#",
     githubUrl: "#"
@@ -86,7 +86,7 @@ export const projects = [
     id: 2,
     title: "DesignFlow",
     description: "A collaborative design system platform that streamlines the workflow between designers and developers.",
-    image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1772272935464-2e90d8218987?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwyfHxkZXNpZ24lMjBzeXN0ZW0lMjBpbnRlcmZhY2V8ZW58MHx8fHwxNzc1NTYzNzk5fDA&ixlib=rb-4.1.0&q=85",
     tags: ["TypeScript", "Figma API", "UI Kit"],
     demoUrl: "#",
     githubUrl: "#"
@@ -95,7 +95,7 @@ export const projects = [
     id: 3,
     title: "MindSpace",
     description: "A mindfulness and productivity app combining meditation timers with task management in a zen interface.",
-    image: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=800&q=80",
+    image: "https://images.pexels.com/photos/6941314/pexels-photo-6941314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     tags: ["Next.js", "Animation", "PWA"],
     demoUrl: "#",
     githubUrl: "#"
